@@ -266,7 +266,6 @@ button {
 
   footer {
     width: 375px;
-    /* height: 500px; */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -386,8 +385,17 @@ button {
     background: #26bba4;
   }
 
+  .hero__button--ios:hover {
+    background: rgba(38, 187, 164, 0.7);
+  }
+
+
   .hero__button--mac {
     background: #6174ff;
+  }
+
+  .hero__button--mac:hover {
+    background: rgba(97, 116, 255, 0.7);
   }
 
   .hero {
@@ -553,43 +561,54 @@ button {
   /*######################################## section-clipboard ############################*/
   .section-clipboard {
     margin-top: 150px;
-    margin-left: 355px;
+    margin-bottom: 150px;
+    /* margin-left: 355px; */
     width: 730px;
     height: 228px;
   }
+
+.centering-section-clipboard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
   .section-clipboard p {
     margin-bottom: 30px;
   }
 
   .last-button {
-    margin-bottom: 0;
+    margin-left: 16px;
+
   }
 
   /*######################################## footer #######################################*/
 
   footer {
-    width: 375px;
-    /* height: 500px; */
+    /* width: 1440px; */
+    height: 150px;
     display: flex;
-    flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    padding: 52px 107px 51px 108px;
+    padding: 39px 165px;
+    background: rgba(158, 171, 178, 0.1);
   }
 
   .footer-logo {
     width: 55px;
     height: 55px;
-    margin-bottom: 40px;
+    margin-right: 135px;
   }
 
   .links {
-    border: red solid 2px;
-    
+    height: 72px;
+  }
+
+  .logo-and-links--dflex {
+    display: flex;
+    align-items: center;
     width: 825px;
-height: 72px;
-    /* margin-bottom: 50.25px; */
   }
 
   a {
@@ -602,39 +621,51 @@ height: 72px;
     text-decoration: none;
   }
 
+  a:hover {
+    color: #26BBA4;
+  }
+
   .footer__links--grid {
     display: grid;
     grid-template-areas:
-      "one two three"
-      "four five .";
+      "one  three five"
+      "two four .";
     gap: 10px 40px;
   }
 
   .one {
     grid-area: one;
+    width: 160px;
   }
   .two {
     grid-area: two;
   }
   .three {
     grid-area: three;
+    width: 160px;
   }
   .four {
     grid-area: four;
   }
   .five {
     grid-area: five;
+    width: 255px;
   }
 
   .social-media {
     display: flex;
+    width: 120px;
+    height: 24px;
     justify-content: space-between;
     align-items: center;
   }
+
+
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@############ for-tablet-landscape-up @@@@@@@@@@@@@@@@@@@@*/
 @media (min-width: 900px) {
+  /* never mind */
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@############ for-desktop-up @@@@@@@@@@@@@@@@@@@@*/
