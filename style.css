@@ -520,12 +520,11 @@ button {
 
   .section-access__img {
     margin-bottom: 0;
-    width: 812px;
   }
 
   /*######################################## section-supercharge ##########################*/
   .section-supercharge {
-    margin-top: 161px;
+    margin-top: 111px;
     margin-bottom: 150px;
     display: flex;
     flex-direction: column;
