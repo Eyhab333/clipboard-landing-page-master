@@ -389,7 +389,6 @@ button {
     background: rgba(38, 187, 164, 0.7);
   }
 
-
   .hero__button--mac {
     background: #6174ff;
   }
@@ -406,6 +405,7 @@ button {
   .section-keep {
     margin-top: 150px;
     margin-bottom: 186px;
+    border: 2px solid red;
   }
 
   .section-keep__text {
@@ -421,8 +421,8 @@ button {
   }
 
   main h2 {
-    font-size: 28px;
-    line-height: 35px;
+    font-size: 36px;
+    line-height: 45px;
     letter-spacing: -0.456522px;
     margin-bottom: 16px;
   }
@@ -437,7 +437,7 @@ button {
   main p {
     font-weight: 400;
     font-size: 16px;
-    line-height: 26px;
+    line-height: 30px;
     text-align: center;
     letter-spacing: 0.12px;
     color: #9eabb2;
@@ -460,8 +460,21 @@ button {
     align-self: center;
   }
 
-  .section-keep__P {
+  .section-keep__P--main {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    text-align: center;
+    letter-spacing: 0.15px;
+  }
+
+  .section-keep__text2__P {
     text-align: left;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.12px;
+    color: #9eabb2;
   }
 
   .section-keep__img {
@@ -475,9 +488,6 @@ button {
     object-position: 750% 0%;
   }
 
-  .retrive {
-    margin-bottom: 0;
-  }
   /*######################################## section-access ###############################*/
   .section-access {
     display: flex;
@@ -567,12 +577,12 @@ button {
     height: 228px;
   }
 
-.centering-section-clipboard {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+  .centering-section-clipboard {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
 
   .section-clipboard p {
     margin-bottom: 30px;
@@ -580,7 +590,6 @@ button {
 
   .last-button {
     margin-left: 16px;
-
   }
 
   /*######################################## footer #######################################*/
@@ -622,7 +631,7 @@ button {
   }
 
   a:hover {
-    color: #26BBA4;
+    color: #26bba4;
   }
 
   .footer__links--grid {
@@ -659,8 +668,6 @@ button {
     justify-content: space-between;
     align-items: center;
   }
-
-
 }
 
 /*@@@@@@@@@@@@@@@@@@@@@############ for-tablet-landscape-up @@@@@@@@@@@@@@@@@@@@*/
