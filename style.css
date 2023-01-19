@@ -405,7 +405,6 @@ button {
   .section-keep {
     margin-top: 150px;
     margin-bottom: 186px;
-    border: 2px solid red;
   }
 
   .section-keep__text {
@@ -421,6 +420,7 @@ button {
   }
 
   main h2 {
+    font-weight: 600;
     font-size: 36px;
     line-height: 45px;
     letter-spacing: -0.456522px;
@@ -506,7 +506,7 @@ button {
     text-align: center;
     font-weight: 400;
     font-size: 18px;
-    line-height: 30px;
+    line-height: 38px;
     width: 720px;
   }
 
@@ -532,6 +532,7 @@ button {
 
   .section-supercharge__p1 {
     margin-bottom: 0px;
+    font-size: 18px;
   }
 
   .section-supercharge img {
@@ -572,7 +573,6 @@ button {
   .section-clipboard {
     margin-top: 150px;
     margin-bottom: 150px;
-    /* margin-left: 355px; */
     width: 730px;
     height: 228px;
   }
@@ -586,6 +586,7 @@ button {
 
   .section-clipboard p {
     margin-bottom: 30px;
+    font-size: 18px;
   }
 
   .last-button {
@@ -595,7 +596,6 @@ button {
   /*######################################## footer #######################################*/
 
   footer {
-    /* width: 1440px; */
     height: 150px;
     display: flex;
     justify-content: space-between;
