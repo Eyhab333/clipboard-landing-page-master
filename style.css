@@ -513,8 +513,8 @@ button {
   .section-access__img {
     margin-bottom: 0;
     width: 812px;
-    height: 475px;
   }
+
   /*######################################## section-supercharge ##########################*/
   .section-supercharge {
     margin-top: 161px;
@@ -585,7 +585,7 @@ button {
   }
 
   .section-clipboard p {
-    margin-bottom: 30px;
+    margin-bottom: 48px;
     font-size: 18px;
   }
 
@@ -605,7 +605,7 @@ button {
   }
 
   .footer-logo {
-    width: 55px;
+    width: 880px;
     height: 55px;
     margin-right: 135px;
   }
